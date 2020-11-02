@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root{
+    --font1: 'Ubuntu', sans-serif;
+}
+.max-width1{
+    width: 75vw;
+}
+
+.max-width2{
+    width: 55vw;
+}
+
+.m-auto{
+    margin: auto;
+}

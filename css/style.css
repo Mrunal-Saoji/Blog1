@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    margin: 0px;
+}
+
+.navigation{
+    font-family: font1;
+    height: 44px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    height: 95px;
+    background-color: cadetblue;
+}
+
+.footer{
+    height: 50px;
+    background-color: darkolivegreen;
+}
