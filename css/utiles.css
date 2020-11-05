@@ -22,6 +22,7 @@
     border: 2px solid black;
     border-radius: 5px;
     margin: 0px 8px;
+
 }
 
 .btn{
@@ -33,4 +34,12 @@
     
     /* this will convert cursor into pointer when hover the button */
     cursor: pointer;
+
+    /* This will gradually change the color when we will hover over it */
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background: cornflowerblue;
+
 }
