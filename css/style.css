@@ -67,7 +67,7 @@
 
 
 .content{
-    height: 400px;
+    /* height: 400px; */
     /* background-color: cadetblue; */
     padding: 10px;
     display: flex;
@@ -97,8 +97,22 @@
 
 /* Here we will give style to home articles */
 
+.font1{
+    font-family: var(--font1);
+}
 .home-articles{
-    height: 455px;
+    /* height: 455px; */
+    padding-top: 5px;
     /* background: burlywood; */
 }
-.home-article{}
+.home-article{
+    display: flex;
+    margin: 25px;
+}
+.home-article img{
+    width: 300px;
+}
+.home-article-content{
+    align-self: center;
+    padding: 0px 17px;
+}
