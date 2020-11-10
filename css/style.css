@@ -67,15 +67,28 @@
 
 
 .content{
-    /* height: 400px; */
+    height: 400px;
     /* background-color: cadetblue; */
     padding: 10px;
     display: flex;
+    position: relative;
+}
+
+/* Mrunal you have to learn about positions
+Also learn all the css use in below .content::after   */
+.content::after{
+    content: "";
+    background-image: url('../img/some.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
 }
 
 .content-left{
     font-family: var(--font1);
     /* width: 50%; */
+    padding: 0px 44px;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -115,4 +128,10 @@
 .home-article-content{
     align-self: center;
     padding: 0px 17px;
+}
+
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--font1);
 }
