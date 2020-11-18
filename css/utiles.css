@@ -43,3 +43,11 @@
     background: cornflowerblue;
 
 }
+
+/* This is where we will design contact form  */
+
+.form-box input, textarea{
+    width: 35vw;
+    padding: 4px;
+    margin: 5px 44px;
+}

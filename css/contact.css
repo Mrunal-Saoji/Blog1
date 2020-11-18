@@ -1,0 +1,21 @@
+.contact-content{
+    height: 88vh;
+    /* background-color: cadetblue; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 48px;
+}
+
+/* Mrunal you have to learn about positions
+Also learn all the css use in below .content::after   */
+.contact-content::after{
+    content: "";
+    background-image: url('../img/some.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+}
