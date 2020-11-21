@@ -19,3 +19,26 @@ Also learn all the css use in below .content::after   */
     opacity: 0.15;
     z-index: -1;
 }
+
+.mx-2{
+    margin-left: 10px;
+}
+
+.form-btn{
+    margin-right: 17px;
+    padding: 3px 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-family: var(--font1);
+    
+    /* this will convert cursor into pointer when hover the button */
+    cursor: pointer;
+
+    /* This will gradually change the color when we will hover over it */
+    transition: all 0.3s ease-in-out;
+}
+
+.form-btn:hover{
+    background: cornflowerblue;
+
+}

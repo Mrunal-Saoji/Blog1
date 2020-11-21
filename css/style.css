@@ -64,8 +64,6 @@
 }
 
 /* This section is used to style content section */
-
-
 .content{
     height: 400px;
     /* background-color: cadetblue; */
@@ -116,8 +114,21 @@ Also learn all the css use in below .content::after   */
 .home-articles{
     /* height: 455px; */
     padding-top: 5px;
+    position: relative;
     /* background: burlywood; */
 }
+/* .year-box{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: -18px;
+    top: 125px;
+    font-size: 20px;
+}
+.year-box div{
+    margin: 4px 0px;
+} */
+
 .home-article{
     display: flex;
     margin: 25px;
